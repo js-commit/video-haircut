@@ -5,9 +5,9 @@
 Save hours on video editing with Video Haircut - the AI tool that transforms raw talking head footage into polished content in minutes, not hours.
 
 ## Requirements
-- Windows or Mac
+- Windows 10/11 or Mac M series
 - Video editor that supports XML sequence import
-- For multicam, download the free [TimeBolt plugin](https://www.timebolt.io/jump-cutter-adobe-premiere) to apply cuts in Premiere Pro
+- For multicam, download the free [TimeBolt plugin](https://www.timebolt.io/jump-cutter-adobe-premiere) to apply cuts in Premiere Pro only (more formats to follow)
 
 ## See It In Action!
 
