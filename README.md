@@ -1,6 +1,6 @@
 # VideoHaircut - AI-Powered Video Editing Assistant
 
-## [⬇️ DOWNLOAD NOW](https://github.com/js-commit/video-haircut/releases) - Free for a Limited Time!
+## [⬇️ DOWNLOAD NOW](https://github.com/js-commit/video-haircut/releases)
 
 Save hours on video editing with VideoHaircut - the AI tool that transforms raw talking head footage into polished content in minutes, not hours.
 
