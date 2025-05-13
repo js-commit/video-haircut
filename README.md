@@ -1,8 +1,13 @@
 # VideoHaircut - AI-Powered Video Editing Assistant
 
-## Save Hours on Video Editing
+## [⬇️ DOWNLOAD NOW](https://github.com/js-commit/video-haircut/releases) - Free for a Limited Time!
 
-VideoHaircut is a powerful AI-assisted tool designed specifically for content creators who record talking head videos. Stop wasting hours manually cutting out silences, removing filler words, and editing out bad takes. With VideoHaircut, you can transform your raw footage into polished content in minutes, not hours.
+Save hours on video editing with VideoHaircut - the AI tool that transforms raw talking head footage into polished content in minutes, not hours.
+
+## Requirements
+- Windows or Mac
+- Video editor that supports XML sequence import
+- For multicam, download the free [TimeBolt plugin](https://www.timebolt.io/jump-cutter-adobe-premiere) to apply cuts in Premiere Pro
 
 ## See It In Action!
 
@@ -59,16 +64,6 @@ Unlike other AI video editors, VideoHaircut:
 - **Solo videographers** who need to wear multiple hats
 - **Podcasters** transitioning to video content
 - **Anyone** who wants to cut editing time by 80%
-
-## Requirements
-
-- Windows or Mac
-- Video editor that supports XML sequence import
-  - For multicam, you can download the free [TimeBolt plugin](https://www.timebolt.io/jump-cutter-adobe-premiere) to apply cuts in Premiere Pro.
-
-## Download
-
-[Download Latest Release →](https://github.com/js-commit/video-haircut/releases)
 
 ## Support & Feedback
 
