@@ -43,8 +43,8 @@ Save hours on video editing with Video Haircut - the AI tool that transforms raw
 
 Unlike other AI video editors, Video Haircut:
 
-- **Isn't locked to specific AI models** - Use whatever LLM you have access to
-- **Doesn't require expensive subscriptions** - Pay once, use forever
+- **Isn't locked to specific AI models or NLE** - Use whatever LLM or editor you have access to
+- **Doesn't require expensive subscriptions** - Generous free tier, pay once, use forever
 - **Works with your existing workflow** - Export to any editing software
 - **Focuses on what AI does best** - Finding cuts and edits in talking head videos
 - **Preserves your creative control** - AI assists but doesn't take over
@@ -52,16 +52,15 @@ Unlike other AI video editors, Video Haircut:
 ## Getting Started
 
 1. Download the latest release for your platform
-2. Import your video file
-3. Let Video Haircut transcribe your content
-4. Edit using AI suggestions or manually mark cuts
+2. Import your video file (if multi-cam, choose the longest length segment)
+3. Let Video Haircut transcribe your content (sign up required for https://replicate.com)
+4. Edit using AI suggestions and manually mark cuts
 5. Export to your favorite editor
 
 ## Perfect For
 
 - **YouTubers** creating regular talking-head content
 - **Content creators** who want to speed up their workflow
-- **Solo videographers** who need to wear multiple hats
 - **Podcasters** transitioning to video content
 - **Anyone** who wants to cut editing time by 80%
 
