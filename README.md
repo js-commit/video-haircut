@@ -8,7 +8,7 @@ Save hours on video editing with Video Haircut - the AI tool that transforms raw
 - Windows 10/11 or Mac M series
 - Video editor that supports XML sequence import
 - For multicam, download the free [TimeBolt plugin](https://www.timebolt.io/jump-cutter-adobe-premiere) to apply cuts in Premiere Pro only (more formats to follow)
-- Replicate.com API key (for audio transcriptions), access to Claude Sonnet 3.5/3.7, Gemini Pro 2.5 for best results
+- Replicate.com API key (for audio transcriptions), access to Claude Sonnet 3.5/3.7 or Gemini Pro 2.5 for best results (web ui)
 
 ## See It In Action!
 
