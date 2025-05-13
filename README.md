@@ -4,6 +4,18 @@
 
 VideoHaircut is a powerful AI-assisted tool designed specifically for content creators who record talking head videos. Stop wasting hours manually cutting out silences, removing filler words, and editing out bad takes. With VideoHaircut, you can transform your raw footage into polished content in minutes, not hours.
 
+## See It In Action!
+
+[![Watch the demo video](https://img.shields.io/badge/Watch%20Demo%20Video-%F0%9F%8E%A5-blue?style=for-the-badge)](https://youtu.be/meINkVyVvj4?t=267)
+
+---
+
+<p align="center">
+  <img src="SCR-20250513-bhxq.png" alt="VideoHaircut Screenshot" width="600" style="border-radius:12px; box-shadow:0 4px 24px rgba(0,0,0,0.1);">
+  <br>
+  <em>VideoHaircut: Instantly find and cut silences, filler words, and bad takes with AI</em>
+</p>
+
 ## How It Works
 
 1. **Record your content** - Just talk naturally, don't worry about mistakes
