@@ -63,7 +63,8 @@ Unlike other AI video editors, VideoHaircut:
 ## Requirements
 
 - Windows or Mac
-- For multicam, you can download the free [TimeBolt plugin](https://www.timebolt.io/jump-cutter-adobe-premiere) to apply cuts in Premiere Pro.
+- Video editor that supports XML sequence import
+  - For multicam, you can download the free [TimeBolt plugin](https://www.timebolt.io/jump-cutter-adobe-premiere) to apply cuts in Premiere Pro.
 
 ## Download
 
