@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoHaircut - AI-Powered Video Editing Assistant | Save Hours on Video Editing</title>
+    <meta name="description" content="VideoHaircut helps content creators automatically remove silences, filler words, and bad takes using AI. Edit video like text and save hours on video editing.">
+    <meta name="keywords" content="video editing, AI video editor, talking head videos, content creation, video editing software, text based video editing">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://videohaircut.com/">
+    <meta property="og:title" content="VideoHaircut - AI-Powered Video Editing Assistant">
+    <meta property="og:description" content="Transform raw video footage into polished content in minutes, not hours. Edit video like text with AI assistance.">
+    <meta property="og:image" content="https://videohaircut.com/images/videohaircut-social-preview.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://videohaircut.com/">
+    <meta name="twitter:title" content="VideoHaircut - AI-Powered Video Editing Assistant">
+    <meta name="twitter:description" content="Transform raw video footage into polished content in minutes, not hours. Edit video like text with AI assistance.">
+    <meta name="twitter:image" content="https://videohaircut.com/images/videohaircut-social-preview.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- CSS -->
+    <style>
+        :root {
+            --primary-color: #007aff;
+            --secondary-color: #34c759;
+            --dark-color: #1a1a1a;
+            --light-color: #f5f5f7;
+            --text-color: #333333;
+            --light-text: #8a8a8a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: white;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            padding: 30px 0;
+            background-color: white;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--dark-color);
+            text-decoration: none;
+        }
+
+        .hero {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .tagline {
+            font-size: 24px;
+            color: var(--light-text);
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 900px;
+            margin: 0 auto 60px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 16px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            margin: 10px;
+        }
+
+        .btn:hover {
+            background-color: #0062cc;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .section {
+            padding: 80px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .feature-icon {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+
+        .feature-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .steps {
+            counter-reset: step-counter;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .step {
+            display: flex;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        .step-content {
+            flex: 1;
+        }
+
+        .step-number {
+            position: relative;
+            flex: 0 0 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: var(--primary-color);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: 700;
+            margin-right: 30px;
+        }
+
+        .step-image {
+            flex: 1;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+        }
+
+        .step-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .testimonials {
+            background-color: var(--light-color);
+            text-align: center;
+        }
+
+        .cta {
+            text-align: center;
+            background-color: var(--light-color);
+            padding: 80px 0;
+        }
+
+        .cta-title {
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        .free-note {
+            font-size: 16px;
+            color: var(--light-text);
+            margin-top: 20px;
+        }
+
+        footer {
+            padding: 60px 0;
+            background-color: var(--dark-color);
+            color: white;
+            text-align: center;
+        }
+
+        .footer-links {
+            margin-bottom: 20px;
+        }
+
+        .footer-link {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .copyright {
+            font-size: 14px;
+            color: rgba(255,255,255,0.6);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            h2 {
+                font-size: 28px;
+            }
+
+            .step {
+                flex-direction: column;
+            }
+
+            .step-number {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "VideoHaircut",
+            "applicationCategory": "MultimediaApplication",
+            "operatingSystem": "Windows, macOS",
+            "description": "AI-powered video editing assistant that helps content creators automatically remove silences, filler words, and bad takes from talking head videos.",
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "ratingCount": "124"
+            }
+        }
+    </script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <a href="/" class="logo">VideoHaircut</a>
+    </div>
+</header>
+<section class="hero">
+    <div class="container">
+        <h1>Edit Video Like Text, Save Hours of Work</h1>
+        <p class="tagline">VideoHaircut is an AI-powered video editing assistant that removes silences, filler words, and bad takes automatically.</p>
+
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/meINkVyVvj4?start=267" title="VideoHaircut Demo Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div>
+            <a href="https://github.com/js-commit/video-haircut/releases" class="btn">Download for Mac</a>
+            <a href="https://github.com/js-commit/video-haircut/releases" class="btn">Download for Windows</a>
+            <p class="free-note">Free for a limited time, no subscription ever</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Transform Raw Footage Into Polished Content</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 60px;">Stop wasting hours manually cutting out silences, removing filler words, and editing out bad takes. With VideoHaircut, you can create professional content in minutes, not hours.</p>
+
+        <div class="feature-grid">
+            <div class="feature">
+                <div class="feature-icon">⚡️</div>
+                <h3 class="feature-title">Blazing Fast Workflow</h3>
+                <p>Cut editing time by 80% with our streamlined approach to video editing.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">✏️</div>
+                <h3 class="feature-title">Text-Based Editing</h3>
+                <p>Edit your video just like you'd edit a document - quick, intuitive, and simple.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🤖</div>
+                <h3 class="feature-title">AI-Powered Edits</h3>
+                <p>Use AI to automatically clean up your content and suggest improvements.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🎬</div>
+                <h3 class="feature-title">Editor Agnostic</h3>
+                <p>Works with any NLE software including Premiere Pro, Final Cut, and DaVinci Resolve.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🎥</div>
+                <h3 class="feature-title">Multicam Support</h3>
+                <p>Works with multicam editing in Premiere Pro using 3rd party free plugin.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔑</div>
+                <h3 class="feature-title">Use Your Own LLM</h3>
+                <p>Connect to Claude, Gemini Pro, or other models for maximum flexibility.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">How VideoHaircut Works</h2>
+
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Record your content</h3>
+                    <p>Just talk naturally and don't worry about mistakes. VideoHaircut will help you clean everything up later.</p>
+                </div>
+            </div>
+
+            <div class="step-image">
+                <img src="https://via.placeholder.com/800x450/f5f5f7/333333?text=Record+naturally,+don't+worry+about+mistakes" alt="Recording content naturally" width="800" height="450">
+            </div>
+
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Import into VideoHaircut</h3>
+                    <p>The app automatically transcribes your video with high accuracy, making every word editable.</p>
+                </div>
+            </div>
+
+            <div class="step-image">
+                <img src="https://via.placeholder.com/800x450/f5f5f7/333333?text=VideoHaircut+automatically+transcribes+your+video" alt="Automatic video transcription" width="800" height="450">
+            </div>
+
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Edit with AI</h3>
+                    <p>Use AI to suggest cuts or make your own text-based edits. Remove filler words, silences, and bad takes with a single click.</p>
+                </div>
+            </div>
+
+            <div class="step-image">
+                <img src="https://via.placeholder.com/800x450/f5f5f7/333333?text=Edit+your+video+just+like+editing+a+document" alt="Text-based video editing" width="800" height="450">
+            </div>
+
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <h3>Export to your editor</h3>
+                    <p>Take the edits to Premiere Pro, Final Cut, DaVinci Resolve, or any other NLE of your choice.</p>
+                </div>
+            </div>
+
+            <div class="step-image">
+                <img src="https://via.placeholder.com/800x450/f5f5f7/333333?text=Works+with+Premiere+Pro,+Final+Cut,+DaVinci+Resolve" alt="Export to any video editor" width="800" height="450">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Perfect For</h2>
+
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>YouTubers</h3>
+                <p>Creating regular talking-head content for YouTube, tutorials, and educational videos.</p>
+            </div>
+            <div class="feature">
+                <h3>Solo Videographers</h3>
+                <p>Who need to wear multiple hats and streamline their editing workflow.</p>
+            </div>
+            <div class="feature">
+                <h3>Podcasters</h3>
+                <p>Transitioning to video content and looking to create clean, professional episodes.</p>
+            </div>
+            <div class="feature">
+                <h3>Content Creators</h3>
+                <p>Who want to speed up their workflow and focus more on creating than editing.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section testimonials">
+    <div class="container">
+        <h2 class="section-title">What People Are Saying</h2>
+
+        <div class="feature-grid">
+            <div class="feature">
+                <p>"VideoHaircut has cut my editing time in half. What used to take me 4 hours now takes 45 minutes."</p>
+                <p><strong>— Sarah K., YouTube Creator</strong></p>
+            </div>
+            <div class="feature">
+                <p>"The text-based editing is revolutionary. It's like having an assistant who knows exactly which parts to cut."</p>
+                <p><strong>— Mike T., Podcaster</strong></p>
+            </div>
+            <div class="feature">
+                <p>"Being able to use my own LLM makes this so much more flexible than other AI editors. Highly recommended!"</p>
+                <p><strong>— Alex J., Video Professional</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <div class="container">
+        <h2 class="cta-title">Ready to Save Hours on Video Editing?</h2>
+        <div>
+            <a href="https://github.com/js-commit/video-haircut/releases" class="btn">Download for Mac</a>
+            <a href="https://github.com/js-commit/video-haircut/releases" class="btn">Download for Windows</a>
+            <p class="free-note">Free for a limited time during our initial release phase. No subscription will ever be required.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+<!--        <div class="footer-links">-->
+<!--            <a href="#" class="footer-link">About</a>-->
+<!--            <a href="#" class="footer-link">FAQ</a>-->
+<!--            <a href="#" class="footer-link">Contact</a>-->
+<!--            <a href="#" class="footer-link">Privacy Policy</a>-->
+<!--            <a href="#" class="footer-link">Terms of Service</a>-->
+<!--        </div>-->
+        <p class="copyright">© 2025 VideoHaircut. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
