@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VideoHaircut - AI-Powered Video Editing Assistant | Save Hours on Video Editing</title>
-    <meta name="description" content="VideoHaircut helps content creators automatically remove silences, filler words, and bad takes using AI. Edit video like text and save hours on video editing.">
+    <title>Video Haircut - AI-Powered Video Editing Assistant | Save Hours on Video Editing</title>
+    <meta name="description" content="Video Haircut helps content creators automatically remove silences, filler words, and bad takes using AI. Edit video like text and save hours on video editing.">
     <meta name="keywords" content="video editing, AI video editor, talking head videos, content creation, video editing software, text based video editing">
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://videohaircut.com/">
-    <meta property="og:title" content="VideoHaircut - AI-Powered Video Editing Assistant">
+    <meta property="og:title" content="Video Haircut - AI-Powered Video Editing Assistant">
     <meta property="og:description" content="Transform raw video footage into polished content in minutes, not hours. Edit video like text with AI assistance.">
     <meta property="og:image" content="https://videohaircut.com/images/videohaircut-social-preview.jpg">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://videohaircut.com/">
-    <meta name="twitter:title" content="VideoHaircut - AI-Powered Video Editing Assistant">
+    <meta name="twitter:title" content="Video Haircut - AI-Powered Video Editing Assistant">
     <meta name="twitter:description" content="Transform raw video footage into polished content in minutes, not hours. Edit video like text with AI assistance.">
     <meta name="twitter:image" content="https://videohaircut.com/images/videohaircut-social-preview.jpg">
 
@@ -184,7 +184,7 @@
         .step {
             display: flex;
             align-items: center;
-            margin-bottom: 60px;
+            margin-bottom: 80px;
         }
 
         .step-content {
@@ -211,6 +211,7 @@
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+            margin-bottom: 100px;
         }
 
         .step-image img {
@@ -288,7 +289,7 @@
         {
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
-            "name": "VideoHaircut",
+            "name": "Video Haircut",
             "applicationCategory": "MultimediaApplication",
             "operatingSystem": "Windows, macOS",
             "description": "AI-powered video editing assistant that helps content creators automatically remove silences, filler words, and bad takes from talking head videos.",
@@ -308,16 +309,25 @@
 <body>
 <header>
     <div class="container">
-        <a href="/" class="logo">VideoHaircut</a>
+        <a href="/" class="logo">Video Haircut</a>
     </div>
 </header>
 <section class="hero">
     <div class="container">
         <h1>Edit Video Like Text, Save Hours of Work</h1>
-        <p class="tagline">VideoHaircut is an AI-powered video editing assistant that removes silences, filler words, and bad takes automatically.</p>
+        <p class="tagline">Video Haircut is an AI-powered video editing assistant that removes silences, filler words, and bad takes automatically.</p>
 
         <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/meINkVyVvj4?start=267" title="VideoHaircut Demo Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div id="video-thumbnail" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;">
+                <img src="SCR-20250513-bhxq.png" alt="Video Haircut Demo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <svg width="68" height="48" viewBox="0 0 68 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M66.52 7.74C65.7 4.78 63.34 2.42 60.38 1.6C55.08 0 34 0 34 0C34 0 12.92 0 7.62 1.6C4.66 2.42 2.3 4.78 1.48 7.74C0 13.52 0 25.02 0 25.02C0 25.02 0 36.52 1.48 42.3C2.3 45.26 4.66 47.62 7.62 48.44C12.92 50.04 34 50.04 34 50.04C34 50.04 55.08 50.04 60.38 48.44C63.34 47.62 65.7 45.26 66.52 42.3C68 36.52 68 25.02 68 25.02C68 25.02 68 13.52 66.52 7.74Z" fill="#FF0000"/>
+                        <path d="M27.04 35.42L44.78 25.02L27.04 14.62V35.42Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+            <iframe id="youtube-video" style="display: none;" src="https://www.youtube.com/embed/meINkVyVvj4?start=267" title="Video Haircut Demo Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div>
@@ -331,7 +341,7 @@
 <section class="section">
     <div class="container">
         <h2 class="section-title">Transform Raw Footage Into Polished Content</h2>
-        <p style="text-align: center; max-width: 800px; margin: 0 auto 60px;">Stop wasting hours manually cutting out silences, removing filler words, and editing out bad takes. With VideoHaircut, you can create professional content in minutes, not hours.</p>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 60px;">Stop wasting hours manually cutting out silences, removing filler words, and editing out bad takes. With Video Haircut, you can create professional content in minutes, not hours.</p>
 
         <div class="feature-grid">
             <div class="feature">
@@ -370,47 +380,35 @@
 
 <section class="section">
     <div class="container">
-        <h2 class="section-title">How VideoHaircut Works</h2>
+        <h2 class="section-title">How Video Haircut Works</h2>
 
         <div class="steps">
             <div class="step">
                 <div class="step-number">1</div>
                 <div class="step-content">
-                    <h3>Record your content</h3>
-                    <p>Just talk naturally and don't worry about mistakes. VideoHaircut will help you clean everything up later.</p>
+                    <h3>Record one take and import</h3>
+                    <p>Just talk naturally and don't worry about mistakes. Video Haircut will help you clean everything up later.</p>
                 </div>
             </div>
 
             <div class="step-image">
-                <img src="https://via.placeholder.com/800x450/f5f5f7/333333?text=Record+naturally,+don't+worry+about+mistakes" alt="Recording content naturally" width="800" height="450">
+                <img src="step-1-import.png" alt="Recording content naturally" width="800" height="450">
             </div>
 
             <div class="step">
                 <div class="step-number">2</div>
                 <div class="step-content">
-                    <h3>Import into VideoHaircut</h3>
-                    <p>The app automatically transcribes your video with high accuracy, making every word editable.</p>
+                    <h3>Edit with AI</h3>
+                    <p>The app automatically transcribes your video with high accuracy. Use AI to suggest cuts or make your own text-based edits. Remove filler words, silences, and bad takes with a single click.</p>
                 </div>
             </div>
 
             <div class="step-image">
-                <img src="https://via.placeholder.com/800x450/f5f5f7/333333?text=VideoHaircut+automatically+transcribes+your+video" alt="Automatic video transcription" width="800" height="450">
+                <img src="SCR-20250513-bhxq.png" alt="AI-powered video editing" width="800" height="450">
             </div>
 
             <div class="step">
                 <div class="step-number">3</div>
-                <div class="step-content">
-                    <h3>Edit with AI</h3>
-                    <p>Use AI to suggest cuts or make your own text-based edits. Remove filler words, silences, and bad takes with a single click.</p>
-                </div>
-            </div>
-
-            <div class="step-image">
-                <img src="https://via.placeholder.com/800x450/f5f5f7/333333?text=Edit+your+video+just+like+editing+a+document" alt="Text-based video editing" width="800" height="450">
-            </div>
-
-            <div class="step">
-                <div class="step-number">4</div>
                 <div class="step-content">
                     <h3>Export to your editor</h3>
                     <p>Take the edits to Premiere Pro, Final Cut, DaVinci Resolve, or any other NLE of your choice.</p>
@@ -418,7 +416,7 @@
             </div>
 
             <div class="step-image">
-                <img src="https://via.placeholder.com/800x450/f5f5f7/333333?text=Works+with+Premiere+Pro,+Final+Cut,+DaVinci+Resolve" alt="Export to any video editor" width="800" height="450">
+                <img src="step-4-refine-and-export.png" alt="Export to any video editor" width="800" height="450">
             </div>
         </div>
     </div>
@@ -434,41 +432,37 @@
                 <p>Creating regular talking-head content for YouTube, tutorials, and educational videos.</p>
             </div>
             <div class="feature">
-                <h3>Solo Videographers</h3>
-                <p>Who need to wear multiple hats and streamline their editing workflow.</p>
+                <h3>Content Creators</h3>
+                <p>Who want to speed up their workflow and focus more on creating than editing.</p>
             </div>
             <div class="feature">
                 <h3>Podcasters</h3>
                 <p>Transitioning to video content and looking to create clean, professional episodes.</p>
             </div>
-            <div class="feature">
-                <h3>Content Creators</h3>
-                <p>Who want to speed up their workflow and focus more on creating than editing.</p>
-            </div>
         </div>
     </div>
 </section>
 
-<section class="section testimonials">
-    <div class="container">
-        <h2 class="section-title">What People Are Saying</h2>
+<!--<section class="section testimonials">-->
+<!--    <div class="container">-->
+<!--        <h2 class="section-title">What People Are Saying</h2>-->
 
-        <div class="feature-grid">
-            <div class="feature">
-                <p>"VideoHaircut has cut my editing time in half. What used to take me 4 hours now takes 45 minutes."</p>
-                <p><strong>— Sarah K., YouTube Creator</strong></p>
-            </div>
-            <div class="feature">
-                <p>"The text-based editing is revolutionary. It's like having an assistant who knows exactly which parts to cut."</p>
-                <p><strong>— Mike T., Podcaster</strong></p>
-            </div>
-            <div class="feature">
-                <p>"Being able to use my own LLM makes this so much more flexible than other AI editors. Highly recommended!"</p>
-                <p><strong>— Alex J., Video Professional</strong></p>
-            </div>
-        </div>
-    </div>
-</section>
+<!--        <div class="feature-grid">-->
+<!--            <div class="feature">-->
+<!--                <p>"Video Haircut has cut my editing time in half. What used to take me 4 hours now takes 45 minutes."</p>-->
+<!--                <p><strong>— Sarah K., YouTube Creator</strong></p>-->
+<!--            </div>-->
+<!--            <div class="feature">-->
+<!--                <p>"The text-based editing is revolutionary. It's like having an assistant who knows exactly which parts to cut."</p>-->
+<!--                <p><strong>— Mike T., Podcaster</strong></p>-->
+<!--            </div>-->
+<!--            <div class="feature">-->
+<!--                <p>"Being able to use my own LLM and editor makes this so much more flexible than other AI editors. Highly recommended!"</p>-->
+<!--                <p><strong>— Alex J., Video Professional</strong></p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
 <section class="cta">
     <div class="container">
@@ -490,8 +484,17 @@
 <!--            <a href="#" class="footer-link">Privacy Policy</a>-->
 <!--            <a href="#" class="footer-link">Terms of Service</a>-->
 <!--        </div>-->
-        <p class="copyright">© 2025 VideoHaircut. All rights reserved.</p>
+        <p class="copyright">© 2025 Video Haircut. All rights reserved.</p>
     </div>
 </footer>
+
+<script>
+    document.getElementById('video-thumbnail').addEventListener('click', function() {
+        document.getElementById('video-thumbnail').style.display = 'none';
+        const iframe = document.getElementById('youtube-video');
+        iframe.style.display = 'block';
+        iframe.src += '&autoplay=1';
+    });
+</script>
 </body>
 </html>
