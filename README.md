@@ -1,8 +1,14 @@
-# VideoHaircut - AI-Powered Video Editing Assistant
+# Video Haircut - AI-Powered Video Editing Assistant
 
-## Save Hours on Video Editing
+## [⬇️ DOWNLOAD NOW](https://github.com/js-commit/video-haircut/releases)
 
-VideoHaircut is a powerful AI-assisted tool designed specifically for content creators who record talking head videos. Stop wasting hours manually cutting out silences, removing filler words, and editing out bad takes. With VideoHaircut, you can transform your raw footage into polished content in minutes, not hours.
+Save hours on video editing with Video Haircut - the AI tool that transforms raw talking head footage into polished content in minutes, not hours.
+
+## Requirements
+- Windows 10/11 or Mac M series
+- Video editor that supports XML sequence import
+- For multicam, download the free [TimeBolt plugin](https://www.timebolt.io/jump-cutter-adobe-premiere) to apply cuts in Premiere Pro only (more formats to follow)
+- Replicate.com API key (for audio transcriptions), access to Claude Sonnet 3.5/3.7 or Gemini Pro 2.5 for best results (web ui)
 
 ## See It In Action!
 
@@ -11,15 +17,15 @@ VideoHaircut is a powerful AI-assisted tool designed specifically for content cr
 ---
 
 <p align="center">
-  <img src="SCR-20250513-bhxq.png" alt="VideoHaircut Screenshot" width="600" style="border-radius:12px; box-shadow:0 4px 24px rgba(0,0,0,0.1);">
+  <img src="SCR-20250513-bhxq.png" alt="Video Haircut Screenshot" width="600" style="border-radius:12px; box-shadow:0 4px 24px rgba(0,0,0,0.1);">
   <br>
-  <em>VideoHaircut: Instantly find and cut silences, filler words, and bad takes with AI</em>
+  <em>Video Haircut: Instantly find and cut silences, filler words, and bad takes with AI</em>
 </p>
 
 ## How It Works
 
 1. **Record your content** - Just talk naturally, don't worry about mistakes
-2. **Import into VideoHaircut** - The app automatically transcribes your video
+2. **Import into Video Haircut** - The app automatically transcribes your video
 3. **Edit with AI** - Use AI to suggest cuts or make your own text-based edits
 4. **Export to your editor** - Take the edits to Premiere Pro, Final Cut, DaVinci Resolve, or any NLE
 
@@ -34,12 +40,12 @@ VideoHaircut is a powerful AI-assisted tool designed specifically for content cr
 - **🔑 Use Your Own LLM** - Connect to Claude Sonnet 3.7, Gemini Pro 2.5, or other models
 - **💸 No Subscription Fees** - Free to use for a limited time, no recurring costs ever
 
-## Why VideoHaircut?
+## Why Video Haircut?
 
-Unlike other AI video editors, VideoHaircut:
+Unlike other AI video editors, Video Haircut:
 
-- **Isn't locked to specific AI models** - Use whatever LLM you have access to
-- **Doesn't require expensive subscriptions** - Pay once, use forever
+- **Isn't locked to specific AI models or NLE** - Use whatever LLM or editor you have access to
+- **Doesn't require expensive subscriptions** - Generous free tier, pay once, use forever
 - **Works with your existing workflow** - Export to any editing software
 - **Focuses on what AI does best** - Finding cuts and edits in talking head videos
 - **Preserves your creative control** - AI assists but doesn't take over
@@ -47,32 +53,22 @@ Unlike other AI video editors, VideoHaircut:
 ## Getting Started
 
 1. Download the latest release for your platform
-2. Import your video file
-3. Let VideoHaircut transcribe your content
-4. Edit using AI suggestions or manually mark cuts
+2. Import your video file (if multi-cam, choose the longest length segment)
+3. Let Video Haircut transcribe your content (sign up required for https://replicate.com)
+4. Edit using AI suggestions and manually mark cuts
 5. Export to your favorite editor
 
 ## Perfect For
 
 - **YouTubers** creating regular talking-head content
 - **Content creators** who want to speed up their workflow
-- **Solo videographers** who need to wear multiple hats
 - **Podcasters** transitioning to video content
 - **Anyone** who wants to cut editing time by 80%
 
-## Requirements
-
-- Windows or Mac
-- For multicam, you can download the free [TimeBolt plugin](https://www.timebolt.io/jump-cutter-adobe-premiere) to apply cuts in Premiere Pro.
-
-## Download
-
-[Download Latest Release →](https://github.com/js-commit/video-haircut/releases)
-
 ## Support & Feedback
 
-Have questions or suggestions? [Open an issue](https://github.com/js-commit/video-haircut/issues) or contact us at support@videohaircut.com.
+Have questions or suggestions? [Open an issue](https://github.com/js-commit/video-haircut/issues)
 
 ---
 
-VideoHaircut is currently free for a limited time during our initial release phase. No subscription will ever be required.
+Video Haircut is currently free for a limited time during our initial release phase. No subscription will ever be required.
