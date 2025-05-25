@@ -6,8 +6,7 @@ Save hours on video editing with Video Haircut - the AI tool that transforms raw
 
 ## Requirements
 - Windows 10/11 or Mac M series
-- Video editor that supports XML sequence import
-- For multicam, download the free [TimeBolt plugin](https://www.timebolt.io/jump-cutter-adobe-premiere) to apply cuts in Premiere Pro only (more formats to follow)
+- [Premiere Pro or DaVinci Resolve using 3rd party free plugin](https://www.notion.so/jsyntax/Video-Haircut-How-to-use-export-files-1fe70218025c80c2ae69e920ca2ac234)
 - Replicate.com API key (for audio transcriptions), access to Claude Sonnet 3.5/3.7 or Gemini Pro 2.5 for best results (web ui)
 
 ## See It In Action!
@@ -27,7 +26,7 @@ Save hours on video editing with Video Haircut - the AI tool that transforms raw
 1. **Record your content** - Just talk naturally, don't worry about mistakes
 2. **Import into Video Haircut** - The app automatically transcribes your video
 3. **Edit with AI** - Use AI to suggest cuts or make your own text-based edits
-4. **Export to your editor** - Take the edits to Premiere Pro, Final Cut, DaVinci Resolve, or any NLE
+4. **Export to your editor** - Take the edits to Premiere Pro, DaVinci Resolve, Final Cut (coming soon)
 
 ## Key Features
 
@@ -35,7 +34,7 @@ Save hours on video editing with Video Haircut - the AI tool that transforms raw
 - **✏️ Text-Based Editing** - Edit your video just like you'd edit a document
 - **🤖 AI-Powered Edits** - Use AI to automatically clean up your content
 - **🎬 Editor Agnostic** - Works with any NLE software you already use
-- **🎥 Premiere Pro Multicam Support** - Works with TimeBolt plugin for multicam editing
+- **🎥 Multicam Support** - Requires 3rd party free plugin
 - **⌨️ Keyboard Shortcuts** - Designed for power users who value speed
 - **🔑 Use Your Own LLM** - Connect to Claude Sonnet 3.7, Gemini Pro 2.5, or other models
 - **💸 No Subscription Fees** - Free to use for a limited time, no recurring costs ever
