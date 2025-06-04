@@ -7,7 +7,6 @@ Save hours on video editing with Video Haircut - the AI tool that transforms raw
 ## Requirements
 - Windows 10/11 or Mac M series
 - [Premiere Pro or DaVinci Resolve using 3rd party free plugin](https://www.notion.so/jsyntax/Video-Haircut-How-to-use-export-files-1fe70218025c80c2ae69e920ca2ac234)
-- Replicate.com API key (for audio transcriptions), access to Claude Sonnet 3.5/3.7 or Gemini Pro 2.5 for best results (web ui)
 
 ## See It In Action!
 
