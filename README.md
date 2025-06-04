@@ -23,19 +23,19 @@ Save hours on video editing with Video Haircut - the AI tool that transforms raw
 ## How It Works
 
 1. **Record your content** - Just talk naturally, don't worry about mistakes
-2. **Import into Video Haircut** - The app automatically transcribes your video
+2. **Import into Video Haircut** - The app automatically transcribes your video and remove silences
 3. **Edit with AI** - Use AI to suggest cuts or make your own text-based edits
-4. **Export to your editor** - Take the edits to Premiere Pro, DaVinci Resolve, Final Cut (coming soon)
+4. **Export to your editor** - Take the edits to Premiere Pro, DaVinci Resolve, Final Cut* (coming soon)
 
 ## Key Features
 
 - **⚡️ Blazing Fast Workflow** - What used to take hours now takes minutes
-- **✏️ Text-Based Editing** - Edit your video just like you'd edit a document
-- **🤖 AI-Powered Edits** - Use AI to automatically clean up your content
+- **✏️ Text-Based Editing** - Edit your video fast just like you'd edit a document
+- **🔑 Use Your Own LLM** - Connect to Claude Sonnet 4.0, Gemini Pro 2.5, or other models
+- **🤖 AI-Powered Edits** - Use AI to automatically clean up your content and remove silences
 - **🎬 Editor Agnostic** - Works with any NLE software you already use
-- **🎥 Multicam Support** - Requires 3rd party free plugin
+- **🎥 Multicam Support** - Sync up multiple media clips
 - **⌨️ Keyboard Shortcuts** - Designed for power users who value speed
-- **🔑 Use Your Own LLM** - Connect to Claude Sonnet 3.7, Gemini Pro 2.5, or other models
 - **💸 No Subscription Fees** - Free to use for a limited time, no recurring costs ever
 
 ## Why Video Haircut?
@@ -52,7 +52,7 @@ Unlike other AI video editors, Video Haircut:
 
 1. Download the latest release for your platform
 2. Import your video file (if multi-cam, choose the longest length segment)
-3. Let Video Haircut transcribe your content (sign up required for https://replicate.com)
+3. Let Video Haircut transcribe your content
 4. Edit using AI suggestions and manually mark cuts
 5. Export to your favorite editor
 
