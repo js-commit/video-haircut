@@ -11,7 +11,7 @@ Save hours on video editing with Video Haircut - the AI tool that transforms raw
 
 ## See It In Action!
 
-[![Watch the demo video](https://img.shields.io/badge/Watch%20Demo%20Video-%F0%9F%8E%A5-blue?style=for-the-badge)](https://youtu.be/meINkVyVvj4?t=267)
+[![Watch the demo video](https://img.shields.io/badge/Watch%20Demo%20Video-%F0%9F%8E%A5-blue?style=for-the-badge)](https://youtu.be/Jdpe8QNu7-8)
 
 ---
 
@@ -26,7 +26,7 @@ Save hours on video editing with Video Haircut - the AI tool that transforms raw
 1. **Record your content** - Just talk naturally, don't worry about mistakes
 2. **Import into Video Haircut** - The app automatically transcribes your video and remove silences
 3. **Edit with AI** - Use AI to suggest cuts or make your own text-based edits
-4. **Export to your editor** - Take the edits to Premiere Pro, DaVinci Resolve, Final Cut* (coming soon)
+4. **Export to your editor** - Take the edits to Premiere Pro, DaVinci Resolve, and Final Cut Pro
 
 ## Key Features
 

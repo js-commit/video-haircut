@@ -181,9 +181,9 @@
             gap: 8px;
         }
         
-        .logo::before {
-            content: '✂️';
-            font-size: 28px;
+        .logo-icon {
+            width: 28px;
+            height: 28px;
             filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
         }
 
@@ -378,7 +378,8 @@
         }
 
         .feature-icon {
-            font-size: 48px;
+            width: 64px;
+            height: 64px;
             margin-bottom: 24px;
             display: inline-block;
             padding: 20px;
@@ -665,7 +666,21 @@
 <header>
     <div class="container">
         <div class="header-content">
-            <a href="/" class="logo">Video Haircut</a>
+            <a href="/" class="logo">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.5 12L8 10.5L9.5 9L11 10.5L9.5 12Z" fill="url(#logoGradient)"/>
+                    <path d="M14.5 12L16 10.5L14.5 9L13 10.5L14.5 12Z" fill="url(#logoGradient)"/>
+                    <path d="M8 14L16 6" stroke="url(#logoGradient)" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M8 6L16 14" stroke="url(#logoGradient)" stroke-width="2" stroke-linecap="round"/>
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                Video Haircut
+            </a>
             <nav class="nav-menu">
                 <a href="#features" class="nav-link">Features</a>
                 <a href="#how-it-works" class="nav-link">How It Works</a>
@@ -693,7 +708,7 @@
                     </svg>
                 </div>
             </div>
-            <iframe id="youtube-video" style="display: none;" src="https://www.youtube.com/embed/meINkVyVvj4?start=267" title="Video Haircut Demo Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="youtube-video" style="display: none;" src="https://youtu.be/Jdpe8QNu7-8" title="Video Haircut Demo Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div>
@@ -712,32 +727,67 @@
 
         <div class="feature-grid">
             <div class="feature">
-                <div class="feature-icon">⚡️</div>
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" fill="white"/>
+                </svg>
                 <h3 class="feature-title">Blazing Fast Workflow</h3>
                 <p>Cut editing time by 80% with our streamlined approach to video editing.</p>
             </div>
             <div class="feature">
-                <div class="feature-icon">✏️</div>
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.414 2L20 3.586L18.414 5.172L16.828 3.586L18.414 2ZM4 20V16.828L14.828 6L18 9.172L7.172 20H4Z" fill="white"/>
+                </svg>
                 <h3 class="feature-title">Text-Based Editing</h3>
                 <p>Edit your video just like you'd edit a document - quick, intuitive, and simple.</p>
             </div>
             <div class="feature">
-                <div class="feature-icon">🤖</div>
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="6" y="4" width="12" height="14" rx="2" fill="white"/>
+                    <circle cx="9" cy="9" r="1" fill="#6366f1"/>
+                    <circle cx="15" cy="9" r="1" fill="#6366f1"/>
+                    <path d="M9 13H15" stroke="#6366f1" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M12 18V20" stroke="white" stroke-width="2"/>
+                    <path d="M8 20H16" stroke="white" stroke-width="2"/>
+                </svg>
                 <h3 class="feature-title">AI-Powered Edits</h3>
                 <p>Use AI to automatically clean up your content and suggest improvements.</p>
             </div>
             <div class="feature">
-                <div class="feature-icon">🎬</div>
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="6" width="20" height="12" rx="2" fill="white"/>
+                    <rect x="2" y="6" width="6" height="4" fill="#6366f1"/>
+                    <path d="M8 8L14 5V13L8 10V8Z" fill="white"/>
+                    <circle cx="18" cy="8" r="1" fill="#6366f1"/>
+                    <circle cx="20" cy="10" r="1" fill="#6366f1"/>
+                </svg>
                 <h3 class="feature-title">Editor Agnostic</h3>
-                <p>Works with popular video editors including Premiere Pro, Final Cut (coming soon), and DaVinci Resolve.</p>
+                <p>Works with popular video editors including Premiere Pro, Final Cut Pro, and DaVinci Resolve.</p>
             </div>
             <div class="feature">
-                <div class="feature-icon">🎥</div>
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Timeline background -->
+                    <rect x="2" y="4" width="20" height="16" rx="2" fill="white"/>
+                    <!-- Track 1 -->
+                    <rect x="4" y="6" width="8" height="2" rx="1" fill="#6366f1"/>
+                    <rect x="14" y="6" width="4" height="2" rx="1" fill="#06b6d4"/>
+                    <!-- Track 2 -->
+                    <rect x="4" y="10" width="6" height="2" rx="1" fill="#06b6d4"/>
+                    <rect x="12" y="10" width="8" height="2" rx="1" fill="#6366f1"/>
+                    <!-- Track 3 -->
+                    <rect x="4" y="14" width="10" height="2" rx="1" fill="#f59e0b"/>
+                    <rect x="16" y="14" width="4" height="2" rx="1" fill="#6366f1"/>
+                    <!-- Playhead -->
+                    <rect x="9.5" y="4" width="1" height="16" fill="white"/>
+                </svg>
                 <h3 class="feature-title">Multicam Support</h3>
                 <p>Works with multicam editing using 3rd party free plugin.</p>
             </div>
             <div class="feature">
-                <div class="feature-icon">🔑</div>
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 1L15.09 8.26L22 9L17 14.74L18.18 22L12 18.27L5.82 22L7 14.74L2 9L8.91 8.26L12 1Z" fill="white"/>
+                    <circle cx="12" cy="10" r="3" fill="#6366f1"/>
+                    <rect x="11" y="13" width="2" height="5" fill="#6366f1"/>
+                </svg>
                 <h3 class="feature-title">Use Your Own LLM</h3>
                 <p>Connect to Claude, Gemini Pro, or other models for maximum flexibility.</p>
             </div>
@@ -778,7 +828,7 @@
                 <div class="step-number">3</div>
                 <div class="step-content">
                     <h3>Export to your editor</h3>
-                    <p>Take the edits to Premiere Pro, Final Cut (coming soon), DaVinci Resolve.</p>
+                    <p>Take the edits to Premiere Pro, Final Cut Pro, and DaVinci Resolve.</p>
                 </div>
             </div>
 
