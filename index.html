@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Haircut - AI-Powered Video Editing Assistant | Save Hours on Video Editing</title>
-    <meta name="description" content="Video Haircut helps content creators automatically remove silences, filler words, and bad takes using AI. Edit video like text and save hours on video editing.">
-    <meta name="keywords" content="video editing, AI video editor, talking head videos, content creation, video editing software, text based video editing">
+    <title>Video Haircut - AI Video Editing, Now in Claude Code | Save Hours on Video Editing</title>
+    <meta name="description" content="The new Video Haircut is Video Editing Skills for Claude Code: Claude cuts the retakes, silences and filler out of your talking-head video with ffmpeg and DaVinci Resolve. The original Video Haircut desktop app is still available.">
+    <meta name="keywords" content="video editing, AI video editor, Claude Code, Claude Code skills, ffmpeg, DaVinci Resolve, talking head videos, content creation, text based video editing">
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://videohaircut.com/">
-    <meta property="og:title" content="Video Haircut - AI-Powered Video Editing Assistant">
-    <meta property="og:description" content="Transform raw video footage into polished content in minutes, not hours. Edit video like text with AI assistance.">
+    <meta property="og:title" content="Video Haircut, now in Claude Code: you talk, Claude cuts">
+    <meta property="og:description" content="Video Editing Skills for Claude Code, the new agentic Video Haircut: a raw talking-head take to a clean first cut with ffmpeg and DaVinci Resolve. Free and open source.">
     <meta property="og:image" content="https://videohaircut.com/images/videohaircut-social-preview.jpg">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://videohaircut.com/">
-    <meta name="twitter:title" content="Video Haircut - AI-Powered Video Editing Assistant">
-    <meta name="twitter:description" content="Transform raw video footage into polished content in minutes, not hours. Edit video like text with AI assistance.">
+    <meta name="twitter:title" content="Video Haircut, now in Claude Code: you talk, Claude cuts">
+    <meta name="twitter:description" content="Video Editing Skills for Claude Code, the new agentic Video Haircut: a raw talking-head take to a clean first cut with ffmpeg and DaVinci Resolve. Free and open source.">
     <meta name="twitter:image" content="https://videohaircut.com/images/videohaircut-social-preview.jpg">
 
     <!-- Favicon -->
@@ -285,6 +285,7 @@
             position: relative;
             overflow: hidden;
             box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+            vertical-align: middle;
         }
         
         .btn::before {
@@ -498,6 +499,311 @@
             margin: 0 auto 30px;
         }
 
+        /* New version: Video Editing Skills for Claude Code */
+        section[id] {
+            scroll-margin-top: 80px;
+        }
+
+        .nv-hero {
+            padding: 72px 0 96px;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(6, 182, 212, 0.08) 100%);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .nv-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 6px 16px 6px 6px;
+            margin-bottom: 28px;
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 999px;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.1);
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-color);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .nv-badge:hover {
+            border-color: var(--primary-light);
+            transform: translateY(-2px);
+        }
+
+        .nv-badge b {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .grad-text {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nv-tools {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: -20px auto 36px;
+            padding: 0;
+            list-style: none;
+        }
+
+        .nv-tools li {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 14px;
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-color);
+        }
+
+        .nv-tools svg {
+            width: 16px;
+            height: 16px;
+            flex: none;
+        }
+
+        .nv-hero .btn svg {
+            width: 18px;
+            height: 18px;
+            vertical-align: -3px;
+            margin-right: 8px;
+        }
+
+        .nv-term {
+            max-width: 760px;
+            margin: 40px auto 0;
+            text-align: left;
+            background: var(--dark-color);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(15, 23, 42, 0.25);
+        }
+
+        .nv-term-bar {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            height: 38px;
+            padding: 0 16px;
+            background: var(--dark-secondary);
+        }
+
+        .nv-term-bar i {
+            width: 11px;
+            height: 11px;
+            border-radius: 50%;
+            background: #475569;
+        }
+
+        .nv-term-bar span {
+            margin-left: 8px;
+            font-size: 13px;
+            color: var(--text-light);
+        }
+
+        .nv-cmd {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 6px 14px;
+            align-items: center;
+            padding: 16px 18px;
+        }
+
+        .nv-cmd + .nv-cmd {
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .nv-cmd p {
+            grid-column: 1;
+            margin: 0;
+            font-size: 13px;
+            color: var(--text-light);
+        }
+
+        .nv-cmd pre {
+            grid-column: 1;
+            margin: 0;
+            font: 14px/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            color: #e2e8f0;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .nv-cmd pre::before {
+            content: "$ ";
+            color: var(--secondary-color);
+        }
+
+        .nv-cmd pre b {
+            color: var(--primary-light);
+            font-weight: 400;
+        }
+
+        .nv-copy {
+            grid-column: 2;
+            grid-row: 1 / span 2;
+            font: 600 12px/1 Inter, sans-serif;
+            color: var(--text-light);
+            background: rgba(255, 255, 255, 0.08);
+            border: 0;
+            border-radius: 8px;
+            padding: 9px 12px;
+            cursor: pointer;
+        }
+
+        .nv-copy:hover {
+            color: white;
+            background: rgba(255, 255, 255, 0.14);
+        }
+
+        .nv-fine {
+            max-width: 760px;
+            margin: 14px auto 0;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .nv-fine a {
+            color: var(--primary-color);
+        }
+
+        .nv-asks {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            max-width: 1000px;
+            margin: 48px auto 0;
+            text-align: left;
+        }
+
+        .nv-ask {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 22px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .nv-ask q {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1.35;
+            color: var(--text-color);
+        }
+
+        .nv-ask q::before,
+        .nv-ask q::after {
+            color: var(--primary-color);
+        }
+
+        .nv-ask p {
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.5;
+            color: var(--text-secondary);
+        }
+
+        .nv-bridge {
+            margin-top: 32px;
+            font-size: 15px;
+            color: var(--text-secondary);
+        }
+
+        .nv-bridge a {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .kicker {
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--primary-color);
+            margin-bottom: 12px;
+        }
+
+        .app-title {
+            font-size: 44px;
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--text-color) 0%, var(--primary-color) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .cta .btn.btn-outline {
+            background: transparent;
+            color: white;
+            box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.85);
+        }
+
+        .cta .btn.btn-outline:hover {
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        @media (max-width: 980px) {
+            .nv-asks {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nv-hero {
+                padding: 56px 0 72px;
+            }
+
+            .app-title {
+                font-size: 34px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nv-hero {
+                padding: 40px 0 56px;
+            }
+
+            .nv-asks {
+                grid-template-columns: 1fr;
+            }
+
+            .nv-cmd {
+                grid-template-columns: 1fr;
+            }
+
+            .nv-copy {
+                grid-column: 1;
+                grid-row: auto;
+                justify-self: start;
+            }
+
+            .app-title {
+                font-size: 30px;
+            }
+        }
+
         .free-note {
             font-size: 16px;
             color: var(--light-text);
@@ -682,6 +988,8 @@
                 Video Haircut
             </a>
             <nav class="nav-menu">
+                <a href="#new" class="nav-link">Claude Code Skills</a>
+                <a href="#app" class="nav-link">Desktop App</a>
                 <a href="#features" class="nav-link">Features</a>
                 <a href="#how-it-works" class="nav-link">How It Works</a>
                 <a href="#download" class="nav-link">Download</a>
@@ -692,11 +1000,58 @@
         </div>
     </div>
 </header>
-<section class="hero">
+<section class="hero nv-hero" id="new">
     <div class="container">
         <div class="hero-content">
-        <h1>Edit Video Like Text, Save Hours of Work</h1>
-        <p class="tagline">Video Haircut is an AI-powered video editing assistant that removes silences, filler words, and bad takes automatically.</p>
+        <a class="nv-badge" href="https://js-commit.github.io/video-editing-skills/"><b>New</b>Video Editing Skills for Claude Code &rarr;</a>
+        <h1>You talk.<br><span class="grad-text">Claude cuts.</span></h1>
+        <p class="tagline">The new, agentic version of Video Haircut. Point Claude Code at a raw talking-head take and it cuts the retakes, silences and filler for you, editing with ffmpeg and DaVinci Resolve on your own computer.</p>
+
+        <ul class="nv-tools" aria-label="What it works with">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M12 15h5"/></svg>Runs in Claude Code</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 5v14M17 5v14M3 12h18"/></svg>Edits with ffmpeg</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h10M4 12h16M4 17h7"/><circle cx="17" cy="7" r="2"/><circle cx="14" cy="17" r="2"/></svg>Builds DaVinci Resolve timelines</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Free and open source</li>
+        </ul>
+
+        <div>
+            <a href="https://js-commit.github.io/video-editing-skills/" class="btn">See What It Does &rarr;</a>
+            <a href="https://github.com/js-commit/video-editing-skills" class="btn btn-secondary"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>Get It on GitHub</a>
+        </div>
+
+        <div class="nv-term">
+            <div class="nv-term-bar"><i></i><i></i><i></i><span>Terminal</span></div>
+            <div class="nv-cmd">
+                <p>1. Install it (once). Claude downloads it for you, no git needed</p>
+                <pre>claude <b>"install github.com/js-commit/video-editing-skills to ~/video-editing-skills"</b></pre>
+                <button class="nv-copy" type="button">Copy</button>
+            </div>
+            <div class="nv-cmd">
+                <p>2. Cut your first video. The first time, it offers a quick setup</p>
+                <pre>cd ~/video-editing-skills &amp;&amp; claude <b>"cut the retakes out of ~/Movies/my-take.mp4"</b></pre>
+                <button class="nv-copy" type="button">Copy</button>
+            </div>
+        </div>
+        <p class="nv-fine">Needs <a href="https://code.claude.com/docs/en/setup">Claude Code</a> (a plan with Claude Opus), Python 3 and ffmpeg. DaVinci Resolve is optional. Your video files stay on your computer.</p>
+
+        <div class="nv-asks">
+            <div class="nv-ask"><q>Cut the retakes out of this</q><p>Stumbles, repeats, silences and "um, wait" gone, with no words clipped.</p></div>
+            <div class="nv-ask"><q>Edit this with b-roll</q><p>Matching clips over the talking, on your DaVinci Resolve timeline or rendered with ffmpeg alone.</p></div>
+            <div class="nv-ask"><q>Make Shorts from this video</q><p>Your best moments, vertical and captioned.</p></div>
+            <div class="nv-ask"><q>Ship it</q><p>Title, chapters, thumbnails and the right volume, ready for you to upload.</p></div>
+        </div>
+
+        <p class="nv-bridge">Prefer clicking to chatting? Its cut lists also open in the <a href="#app">Video Haircut desktop app</a> for touch-ups by hand.</p>
+        </div>
+    </div>
+</section>
+
+<section class="hero" id="app">
+    <div class="container">
+        <div class="hero-content">
+        <p class="kicker">The original desktop app</p>
+        <h2 class="app-title">Video Haircut: Edit Video Like Text</h2>
+        <p class="tagline">Video Haircut is an AI-powered video editing assistant that removes silences, filler words, and bad takes automatically. Still free to download.</p>
 
         <div class="video-container">
             <div id="video-thumbnail" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;">
@@ -886,9 +1241,13 @@
         <div class="cta-content">
             <h2 class="cta-title">Ready to Save Hours on Video Editing?</h2>
             <div>
-                <a href="https://github.com/js-commit/video-haircut/releases" class="btn">Download for Mac</a>
-                <a href="https://github.com/js-commit/video-haircut/releases" class="btn">Download for Windows</a>
-                <p class="free-note">Free for a limited time during our initial release phase. No subscription will ever be required.</p>
+                <a href="https://js-commit.github.io/video-editing-skills/" class="btn">Try Video Editing Skills for Claude Code</a>
+                <p class="free-note">Free and open source. Needs Claude Code.</p>
+            </div>
+            <div style="margin-top: 32px;">
+                <a href="https://github.com/js-commit/video-haircut/releases" class="btn btn-outline">Download Video Haircut for Mac</a>
+                <a href="https://github.com/js-commit/video-haircut/releases" class="btn btn-outline">Download Video Haircut for Windows</a>
+                <p class="free-note">The desktop app is free for a limited time during our initial release phase. No subscription will ever be required.</p>
             </div>
         </div>
     </div>
@@ -913,6 +1272,24 @@
         const iframe = document.getElementById('youtube-video');
         iframe.style.display = 'block';
         iframe.src += '&autoplay=1';
+    });
+</script>
+
+<script>
+    // Copy buttons on the install commands
+    document.querySelectorAll('.nv-copy').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            const text = btn.parentElement.querySelector('pre').textContent;
+            const done = function (label) {
+                btn.textContent = label;
+                setTimeout(function () { btn.textContent = 'Copy'; }, 1600);
+            };
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(text).then(function () { done('Copied'); }, function () { done('Copy failed'); });
+            } else {
+                done('Copy failed');
+            }
+        });
     });
 </script>
 
