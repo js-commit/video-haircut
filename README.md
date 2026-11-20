@@ -1,15 +1,43 @@
-# Video Haircut - AI-Powered Video Editing Assistant
+# Video Haircut
 
-## [⬇️ DOWNLOAD NOW](https://github.com/js-commit/video-haircut/releases)
+## 🆕 The new version: Video Editing Skills for Claude Code
+
+**Video Haircut has a new, agentic successor: [Video Editing Skills for Claude Code](https://js-commit.github.io/video-editing-skills/).**
+Instead of clicking through an app, you just ask. Point Claude Code at a raw
+talking-head take and it cuts the retakes, silences and filler for you, editing
+with **ffmpeg** and **DaVinci Resolve** on your own computer. Then it can lay
+b-roll, apply your review notes, cut Shorts, make thumbnails and write your
+title and chapters. Free and open source (MIT).
+
+### [👉 See what it does](https://js-commit.github.io/video-editing-skills/) · [Get it on GitHub](https://github.com/js-commit/video-editing-skills)
+
+Install it with [Claude Code](https://code.claude.com/docs/en/setup):
+
+```sh
+claude "install github.com/js-commit/video-editing-skills to ~/video-editing-skills"
+cd ~/video-editing-skills && claude "cut the retakes out of ~/Movies/my-take.mp4"
+```
+
+Needs Claude Code (a plan with Claude Opus), Python 3 and ffmpeg. DaVinci Resolve
+is optional. Its cut lists also open in the Video Haircut app below, for touch-ups
+by hand.
+
+---
+
+## The original Video Haircut desktop app
+
+The legacy, more hands-on app is still available.
+
+### [⬇️ Download Video Haircut](https://github.com/js-commit/video-haircut/releases)
 
 Save hours on video editing with Video Haircut - the AI tool that transforms raw talking head footage into polished content in minutes, not hours.
 
-## Requirements
+### Requirements
 - Windows 10/11 or Mac M series
 - [Premiere Pro or DaVinci Resolve using 3rd party free plugin](https://www.notion.so/jsyntax/Video-Haircut-How-to-use-export-files-1fe70218025c80c2ae69e920ca2ac234)
 - `ffmpeg` pre-installed on your machine (optional, but recommended)
 
-## See It In Action!
+### See It In Action!
 
 [![Watch the demo video](https://img.shields.io/badge/Watch%20Demo%20Video-%F0%9F%8E%A5-blue?style=for-the-badge)](https://youtu.be/Jdpe8QNu7-8)
 
@@ -21,14 +49,14 @@ Save hours on video editing with Video Haircut - the AI tool that transforms raw
   <em>Video Haircut: Instantly find and cut silences, filler words, and bad takes with AI</em>
 </p>
 
-## How It Works
+### How It Works
 
 1. **Record your content** - Just talk naturally, don't worry about mistakes
 2. **Import into Video Haircut** - The app automatically transcribes your video and remove silences
 3. **Edit with AI** - Use AI to suggest cuts or make your own text-based edits
 4. **Export to your editor** - Take the edits to Premiere Pro, DaVinci Resolve, and Final Cut Pro
 
-## Key Features
+### Key Features
 
 - **⚡️ Blazing Fast Workflow** - What used to take hours now takes minutes
 - **✏️ Text-Based Editing** - Edit your video fast just like you'd edit a document
@@ -39,7 +67,7 @@ Save hours on video editing with Video Haircut - the AI tool that transforms raw
 - **⌨️ Keyboard Shortcuts** - Designed for power users who value speed
 - **💸 No Subscription Fees** - Free to use for a limited time, no recurring costs ever
 
-## Why Video Haircut?
+### Why Video Haircut?
 
 Unlike other AI video editors, Video Haircut:
 
@@ -49,7 +77,7 @@ Unlike other AI video editors, Video Haircut:
 - **Focuses on what AI does best** - Finding cuts and edits in talking head videos
 - **Preserves your creative control** - AI assists but doesn't take over
 
-## Getting Started
+### Getting Started
 
 1. Download the latest release for your platform
 2. Import your video file (if multi-cam, choose the longest length segment)
@@ -57,14 +85,14 @@ Unlike other AI video editors, Video Haircut:
 4. Edit using AI suggestions and manually mark cuts
 5. Export to your favorite editor
 
-## Perfect For
+### Perfect For
 
 - **YouTubers** creating regular talking-head content
 - **Content creators** who want to speed up their workflow
 - **Podcasters** transitioning to video content
 - **Anyone** who wants to cut editing time by 80%
 
-## Support & Feedback
+### Support & Feedback
 
 Have questions or suggestions? [Open an issue](https://github.com/js-commit/video-haircut/issues)
 
